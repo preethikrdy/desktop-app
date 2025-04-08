@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drink Personality Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>What drink are you?</h1>
+  <form id="quiz-form">
+    <div class="question-slide">
+      <label>What is your ideal Saturday.</label><br />
+      <input type="radio" name="q1" value="a"> Eating leftovers in bed<br />
+      <input type="radio" name="q1" value="b"> Crash out then take a nap<br />
+      <input type="radio" name="q1" value="c"> Screaming at cars that are going under the speed limit<br />
+      <input type="radio" name="q1" value="d"> Sprint across a Costco a few times<br />
+      <input type="radio" name="q1" value="e"> Plan a murder and then execute it<br />
+      <input type="radio" name="q1" value="f"> Stare at the wall and talk to yourself about ur past trauma<br />
+    </div>
+    <div class="question-slide">
+        <label>What snack are you bringing to a picnic?</label><br />
+        <input type="radio" name="q2" value="a"> Charcuterie board for only one person<br />
+        <input type="radio" name="q2" value="b"> Family-sized bag of chips but its just for yourself<br />
+        <input type="radio" name="q2" value="c"> Jolly ranchers you found in your car<br />
+        <input type="radio" name="q2" value="d"> Celsius and fruit rollups<br />
+        <input type="radio" name="q2" value="e"> Nothing<br />
+        <input type="radio" name="q2" value="f"> Bottle of siracha<br />
+
+
+      </div>
+      <div class="question-slide">
+        <label>What is your favorite red flag that you would probably ignore</label><br />
+        <input type="radio" name="q3" value="a"> Only texts you after 9pm<br />
+        <input type="radio" name="q3" value="b"> Lies about their height <br />
+        <input type="radio" name="q3" value="c"> Hates pets <br />
+        <input type="radio" name="q3" value="d"> Smells bad <br />
+        <input type="radio" name="q3" value="e"> Doesn't know how to do laundry <br />
+        <input type="radio" name="q3" value="f"> Calls his ex crazy <br />
+
+
+      </div>
+      <div class="question-slide">
+        <label>Which one of these foods could you eat for the rest of your life? </label><br />
+        <input type="radio" name="q4" value="a"> Toast<br />
+        <input type="radio" name="q4" value="b"> burnt eggs <br />
+        <input type="radio" name="q4" value="c"> Green tea with ritz crackers <br />
+        <input type="radio" name="q4" value="d"> Gummy worms <br />
+        <input type="radio" name="q4" value="e"> Salt water <br />
+        <input type="radio" name="q4" value="f"> Coffee ice cream <br />
+
+      </div>
+      <div class="question-slide">
+        <label>What is your favorite math equation</label><br />
+        <input type="radio" name="q5" value="a"> Pythagorean theorem <br />
+        <input type="radio" name="q5" value="b"> Einstein theory of relativity  <br />
+        <input type="radio" name="q5" value="c"> Area of a circle <br />
+        <input type="radio" name="q5" value="d"> Second Law of thermodynamics <br />
+        <input type="radio" name="q5" value="e"> Quadratic formula <br />
+        <input type="radio" name="q5" value="f"> Euler's identity <br />
+
+
+        <button type="submit"> Get your dog!!</button>
+      </div>
+    <!-- Add more questions here -->
+
+  </form>
+  <button type="button" id="next-btn"> Next Question!! ->> >></button>
+
+  <div id="result" class="hidden"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

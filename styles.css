@@ -1,0 +1,71 @@
+/* Reset basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f6f2;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #ff6f61;
+  }
+  
+  .question-slide {
+    text-align: left;
+    display: none; /* Slides are hidden by default */
+    margin-bottom: 2rem;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  input[type="radio"] {
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #ff3b2e;
+  }
+  
+  #result {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #4caf50;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Optional animation for slide transitions */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
